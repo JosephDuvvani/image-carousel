@@ -5,5 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template</title>
   </head>
-  <body></body>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left boundry">
+        <img src="images/chevron-left.svg" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="images/slide-1.jpg"
+              alt="Slide Image"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="images/slide-2.jpg"
+              alt="Slide Image"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="images/slide-3.jpg"
+              alt="Slide Image"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="images/slide-4.jpg"
+              alt="Slide Image"
+            />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="images/chevron-right.svg" alt="" />
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator active-slide"></button
+        ><button class="carousel__indicator"></button
+        ><button class="carousel__indicator"></button
+        ><button class="carousel__indicator"></button>
+      </div>
+    </div>
+  </body>
 </html>
